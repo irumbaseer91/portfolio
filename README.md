@@ -51,8 +51,10 @@ http://localhost:5173
 
 You should see the portfolio running locally.
 
----
+## 🧭 Alternative: Build the Project from Scratch
 
-# 📜 License
+If you want to create this portfolio project yourself, follow these steps:
+
+## 📜 License
 
 This project is open source and available for learning purposes.
