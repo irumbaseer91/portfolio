@@ -114,11 +114,11 @@ module.exports = {
 Create postcss.config.cjs:
 ```javascript
 module.exports = {
-  plugins: {
-    '@tailwindcss/postcss': {},
-    autoprefixer: {},
-  },
-}
+  plugins: [
+    require("@tailwindcss/postcss7-compat"),
+    require("autoprefixer"),
+  ],
+};
 ```
 
 Add Tailwind directives to src/index.css:
