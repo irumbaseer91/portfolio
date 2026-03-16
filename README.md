@@ -65,7 +65,21 @@ Install the following tools before starting:
 
 You should also have **basic terminal knowledge**.
 
-### Step 1 — Prerequisites
+### Step 1 — Create a React Project with Vite
+
+Open **Git Bash**.
+
+Navigate to the folder where you want the project:
+
+```bash
+cd /c/Users/User
+
+Create the Vite React project:
+```bash
+npm create vite@latest portfolio
+
+
+
 
 ## 📜 License
 
