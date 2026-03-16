@@ -13,15 +13,13 @@ The purpose of this project is to demonstrate how to create a **basic personal p
 * Tailwind CSS
 * Node.js
 * Git & GitHub
----
 
-# 🚀 Getting Started
+
+## 🚀 Getting Started
 
 Follow these steps to run the project locally.
 
----
-
-## 1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository
 
 ```
 git clone https://github.com/YOUR_USERNAME/portfolio.git
@@ -33,17 +31,13 @@ Move into the project folder:
 cd portfolio
 ```
 
----
-
-## 2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 
 ```
 npm install
 ```
 
----
-
-## 3️⃣ Run the Development Server
+### 3️⃣ Run the Development Server
 
 ```
 npm run dev
