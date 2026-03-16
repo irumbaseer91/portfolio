@@ -73,12 +73,27 @@ Navigate to the folder where you want the project:
 
 ```bash
 cd /c/Users/User
+```
 
 Create the Vite React project:
 ```bash
 npm create vite@latest portfolio
+```
+Follow the prompts:
 
+- **Project name:** portfolio
+- **Framework:** React
+- **Variant:** JavaScript + SWC
+- **Use Vite 8 beta?** No
+- **Install dependencies now?** Yes
+- **Enter the project folder:** `cd portfolio`
 
+Open the folder in VS Code:
+```bash
+code .
+```
+
+### Step 2 — Create a React Project with Vite
 
 
 ## 📜 License
