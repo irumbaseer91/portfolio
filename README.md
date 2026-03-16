@@ -82,7 +82,7 @@ Follow the prompts:
 
 - **Project name:** portfolio
 - **Framework:** React
-- **Variant:** JavaScript 
+- **Variant:** JavaScript + SWC
 - **Use Vite 8 beta?** No
 - **Install dependencies now?** Yes
 - **Enter the project folder:** `cd portfolio`
