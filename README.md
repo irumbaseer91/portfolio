@@ -82,7 +82,7 @@ Follow the prompts:
 
 - **Project name:** portfolio
 - **Framework:** React
-- **Variant:** JavaScript + SWC
+- **Variant:** JavaScript 
 - **Use Vite 8 beta?** No
 - **Install dependencies now?** Yes
 - **Enter the project folder:** `cd portfolio`
@@ -102,7 +102,7 @@ Create tailwind.config.js:
 module.exports = {
   content: [
     "./index.html",
-    "./src/**/*.{js,jsx}"
+    "./src/**/*.{js,jsx,ts,tsx}"
   ],
   theme: {
     extend: {},
@@ -115,7 +115,7 @@ Create postcss.config.cjs:
 ```javascript
 module.exports = {
   plugins: {
-    tailwindcss: {},
+    '@tailwindcss/postcss': {},
     autoprefixer: {},
   },
 }
