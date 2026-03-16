@@ -107,7 +107,8 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-}```
+}
+
 Create postcss.config.cjs:
 ```javascript
 module.exports = {
@@ -115,7 +116,8 @@ module.exports = {
     tailwindcss: {},
     autoprefixer: {},
   },
-}```
+}
+
 Add Tailwind directives to src/index.css:
 ```css
 @tailwind base;
@@ -125,7 +127,7 @@ Add Tailwind directives to src/index.css:
 /* Optional: smooth scroll for navbar links */
 html {
   scroll-behavior: smooth;
-}```
+}
 
 
 ## 📜 License
