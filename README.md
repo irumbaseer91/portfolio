@@ -109,6 +109,7 @@ module.exports = {
   },
   plugins: [],
 }
+```
 
 Create postcss.config.cjs:
 ```javascript
@@ -118,6 +119,7 @@ module.exports = {
     autoprefixer: {},
   },
 }
+```
 
 Add Tailwind directives to src/index.css:
 ```css
@@ -129,6 +131,7 @@ Add Tailwind directives to src/index.css:
 html {
   scroll-behavior: smooth;
 }
+```
 
 
 ## 📜 License
