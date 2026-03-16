@@ -1,7 +1,6 @@
 # React Portfolio Demo
 
 This repository contains a **simple developer portfolio project built using React and Vite**.
-The purpose of this project is to demonstrate how to create a **basic personal portfolio website** and understand the **structure of a modern React project**.
 
 ---
 
@@ -93,7 +92,37 @@ Open the folder in VS Code:
 code .
 ```
 
-### Step 2 — Create a React Project with Vite
+### Step 2 — Install Tailwind CSS
+```bash
+npm install -D tailwindcss postcss autoprefixer
+```
+Create tailwind.config.js:
+module.exports = {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,jsx}"
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+Create postcss.config.cjs:
+module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+}
+Add Tailwind directives to src/index.css:
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: smooth scroll for navbar links */
+html {
+  scroll-behavior: smooth;
+}
 
 
 ## 📜 License
