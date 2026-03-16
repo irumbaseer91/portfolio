@@ -97,6 +97,7 @@ code .
 npm install -D tailwindcss postcss autoprefixer
 ```
 Create tailwind.config.js:
+```javascript
 module.exports = {
   content: [
     "./index.html",
@@ -106,15 +107,17 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-}
+}```
 Create postcss.config.cjs:
+```javascript
 module.exports = {
   plugins: {
     tailwindcss: {},
     autoprefixer: {},
   },
-}
+}```
 Add Tailwind directives to src/index.css:
+```css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -122,7 +125,7 @@ Add Tailwind directives to src/index.css:
 /* Optional: smooth scroll for navbar links */
 html {
   scroll-behavior: smooth;
-}
+}```
 
 
 ## 📜 License
