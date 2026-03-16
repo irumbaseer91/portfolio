@@ -132,6 +132,81 @@ html {
   scroll-behavior: smooth;
 }
 ```
+### Step 3 — Run the Development Server
+```
+npm run dev
+```
+Open in browser:
+```
+http://localhost:5173/
+```
+You should see the React starter page.
+
+### Step 4 — Create Components
+
+Inside src, create a folder:
+```
+mkdir src/components
+```
+Create the component files including About, Hero, Contact, Navbar, Projects.
+
+### Step 5 — Connect Components in App.jsx
+```
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+
+function App() {
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      <About />
+      <Projects />
+      <Contact />
+    </>
+  );
+}
+
+export default App;
+```
+### Step 6 — Test Locally
+```
+npm run dev
+```
+Open:
+```
+http://localhost:5173/
+```
+### Step 7 — Initialize Git
+```
+git init
+git add .
+git commit -m "Initial portfolio setup"
+git branch -M main
+git remote add origin https://github.com/USERNAME/portfolio.git
+git push -u origin main
+```
+
+### Step 8 — Deploy to Vercel
+
+1. Go to **[Vercel](https://vercel.com/)** and log in.
+
+2. Click **New Project → Import GitHub repository**.
+
+3. Configure the project settings:
+
+- **Framework:** Vite  
+- **Root Directory:** (leave blank)  
+- **Build Command:** `npm run build`  
+- **Output Directory:** `dist`  
+
+4. Click **Deploy**.
+
+**Example URL:**  
+[https://portfolio-yourname.vercel.app](https://portfolio-yourname.vercel.app)
 
 
 ## 📜 License
