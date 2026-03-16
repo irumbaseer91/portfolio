@@ -5,7 +5,7 @@ The purpose of this project is to demonstrate how to create a **basic personal p
 
 ---
 
-# 📌 Project Overview
+## 📌 Project Overview
 
 The project demonstrates how to:
 
@@ -18,7 +18,7 @@ The project demonstrates how to:
 
 ---
 
-# 🛠 Technologies Used
+## 🛠 Technologies Used
 
 * React
 * Vite
@@ -26,55 +26,6 @@ The project demonstrates how to:
 * Tailwind CSS
 * Node.js
 * Git & GitHub
-
----
-
-# ✨ Features
-
-This demo portfolio includes:
-
-* Hero / Introduction section
-* Navigation bar
-* About section
-* Projects showcase
-* Contact section
-* Responsive layout structure
-* Simple and clean component architecture
-
-Each section of the page is implemented as a **separate React component**.
-
----
-
-# 📂 Project Structure
-
-```
-portfolio
-│
-├ public
-│
-├ src
-│   ├ assets
-│   ├ components
-│   │   ├ Navbar.jsx
-│   │   ├ Hero.jsx
-│   │   ├ About.jsx
-│   │   ├ Projects.jsx
-│   │   └ Contact.jsx
-│   │
-│   ├ App.jsx
-│   ├ index.css
-│   └ main.jsx
-│
-├ .gitignore
-├ README.md
-├ index.html
-├ package.json
-├ package-lock.json
-├ vite.config.js
-├ tailwind.config.cjs
-└ postcss.config.cjs
-```
-
 ---
 
 # 🚀 Getting Started
@@ -120,8 +71,6 @@ http://localhost:5173
 You should see the portfolio running locally.
 
 ---
-
-
 
 # 📜 License
 
