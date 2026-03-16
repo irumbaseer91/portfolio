@@ -1,16 +1,128 @@
-# React + Vite
+# React Portfolio Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a **simple developer portfolio project built using React and Vite**.
+The purpose of this project is to demonstrate how to create a **basic personal portfolio website** and understand the **structure of a modern React project**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 📌 Project Overview
 
-## React Compiler
+The project demonstrates how to:
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+* Create a React project using **Vite**
+* Structure a React application using **components**
+* Build a simple **portfolio layout**
+* Use **Tailwind CSS** for styling
+* Organize files in a clean project structure
+* Upload a project to **GitHub**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 🛠 Technologies Used
+
+* React
+* Vite
+* JavaScript
+* Tailwind CSS
+* Node.js
+* Git & GitHub
+
+---
+
+# ✨ Features
+
+This demo portfolio includes:
+
+* Hero / Introduction section
+* Navigation bar
+* About section
+* Projects showcase
+* Contact section
+* Responsive layout structure
+* Simple and clean component architecture
+
+Each section of the page is implemented as a **separate React component**.
+
+---
+
+# 📂 Project Structure
+
+```
+portfolio
+│
+├ public
+│
+├ src
+│   ├ assets
+│   ├ components
+│   │   ├ Navbar.jsx
+│   │   ├ Hero.jsx
+│   │   ├ About.jsx
+│   │   ├ Projects.jsx
+│   │   └ Contact.jsx
+│   │
+│   ├ App.jsx
+│   ├ index.css
+│   └ main.jsx
+│
+├ .gitignore
+├ README.md
+├ index.html
+├ package.json
+├ package-lock.json
+├ vite.config.js
+├ tailwind.config.cjs
+└ postcss.config.cjs
+```
+
+---
+
+# 🚀 Getting Started
+
+Follow these steps to run the project locally.
+
+---
+
+## 1️⃣ Clone the Repository
+
+```
+git clone https://github.com/YOUR_USERNAME/portfolio.git
+```
+
+Move into the project folder:
+
+```
+cd portfolio
+```
+
+---
+
+## 2️⃣ Install Dependencies
+
+```
+npm install
+```
+
+---
+
+## 3️⃣ Run the Development Server
+
+```
+npm run dev
+```
+
+After running the command, open your browser and visit:
+
+```
+http://localhost:5173
+```
+
+You should see the portfolio running locally.
+
+---
+
+
+
+# 📜 License
+
+This project is open source and available for learning purposes.
