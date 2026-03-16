@@ -185,6 +185,9 @@ http://localhost:5173/
 git init
 git add .
 git commit -m "Initial portfolio setup"
+```
+Connect your GitHub repository:
+```
 git branch -M main
 git remote add origin https://github.com/USERNAME/portfolio.git
 git push -u origin main
