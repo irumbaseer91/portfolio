@@ -54,6 +54,18 @@ You should see the portfolio running locally.
 ## 🧭 Alternative: Build the Project from Scratch
 
 If you want to create this portfolio project yourself, follow these steps:
+### Step 0 — Prerequisites
+
+Install the following tools before starting:
+
+- **[Node.js](https://nodejs.org/)** 
+- **[Git](https://git-scm.com/)** 
+- **[Visual Studio Code](https://code.visualstudio.com/)**
+- **[GitHub Account](https://github.com/)** 
+
+You should also have **basic terminal knowledge**.
+
+### Step 1 — Prerequisites
 
 ## 📜 License
 
