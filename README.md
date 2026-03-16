@@ -5,19 +5,6 @@ The purpose of this project is to demonstrate how to create a **basic personal p
 
 ---
 
-## 📌 Project Overview
-
-The project demonstrates how to:
-
-* Create a React project using **Vite**
-* Structure a React application using **components**
-* Build a simple **portfolio layout**
-* Use **Tailwind CSS** for styling
-* Organize files in a clean project structure
-* Upload a project to **GitHub**
-
----
-
 ## 🛠 Technologies Used
 
 * React
