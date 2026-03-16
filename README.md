@@ -97,6 +97,7 @@ code .
 npm install -D tailwindcss postcss autoprefixer
 ```
 Create tailwind.config.js:
+
 ```javascript
 module.exports = {
   content: [
